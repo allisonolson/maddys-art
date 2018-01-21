@@ -1,0 +1,44 @@
+[
+  {
+    "src": "assets/img/adam.jpg",
+    "thumbnail": "assets/img/adam.jpg",
+    "thumbnailWidth": 450,
+    "thumbnailHeight": 205,
+    "caption": "Adam and God by that one famous guy"
+  },
+  {
+    "src": "assets/img/mona-lisa.jpg",
+    "thumbnail": "assets/img/mona-lisa-thumb.jpg",
+    "thumbnailWidth": 157,
+    "thumbnailHeight": 238,
+    "caption": "This is a song by Panic! at the Disco"
+  },
+  {
+    "src": "assets/img/venice.jpg",
+    "thumbnail": "assets/img/venice.jpg",
+    "thumbnailWidth": 450,
+    "thumbnailHeight": 288,
+    "caption": "This is a city in italy"
+  },
+  {
+    "src": "assets/img/clock.jpg",
+    "thumbnail": "assets/img/clock.jpg",
+    "thumbnailWidth": 368,
+    "thumbnailHeight": 271,
+    "caption": "Look at that GROOVY clock"
+  },
+  {
+    "src": "assets/img/girl-with-pearl.jpg",
+    "thumbnail": "assets/img/girl-with-pearl.jpg",
+    "thumbnailWidth": 450,
+    "thumbnailHeight": 528,
+    "caption": "She's a girl and she has a pearl"
+  },
+  {
+    "src": "assets/img/starry-night.jpg",
+    "thumbnail": "assets/img/starry-night-thumb.jpg",
+    "thumbnailWidth": 350,
+    "thumbnailHeight": 277,
+    "caption": "Van Go home where are the stars?"
+  }
+]

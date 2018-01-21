@@ -48,7 +48,11 @@ export default class Base extends React.Component {
       <div style={{display: 'flex', alignItems: 'center', height:'100%'}}>
         <div style={{paddingLeft:'20px', paddingRight:"20px"}}>
           <a href='#' style={sidebarItemStyle}>Paintings</a>
+          <a href='#' style={sidebarItemStyle}>Drawings</a>
           <a href='#' style={sidebarItemStyle}>Prints</a>
+	  <a href="#" style={sidebarItemStyle}>Animations</a>
+          <a href='#' style={sidebarItemStyle}>About</a>
+          <a href='#' style={sidebarItemStyle}>Contact</a>
         </div>
       </div>;
  

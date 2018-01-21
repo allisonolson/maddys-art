@@ -10,6 +10,15 @@
   </head>
   <body style="background-color:black;">
     <span id="react-base"></span>
-    <script src="assets/js/index-build.js"></script> 
-  </body> 
+  </body>
+  <script type="text/javascript"> 
+    var images_json = ""; 
+    var oReq = new XMLHttpRequest(); 
+    oReq.onload = function(e) {
+      images_json = JSON.parse(this.responseText);
+    }
+    oReq.open("get", "assets/json/paintings.json", false); 
+    oReq.send();
+  </script> 
+  <script src="assets/js/index-build.js"></script> 
 </html>

@@ -28,6 +28,7 @@
     "webpack-bundle-tracker": "^0.2.1"
   },
   "dependencies": {
+    "react-grid-gallery": "^0.4.8",
     "react-sidebar": "^2.3.2"
   }
 }
