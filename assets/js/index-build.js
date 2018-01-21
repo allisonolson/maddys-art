@@ -20996,7 +20996,8 @@ var captionStyle = {
   width: "100%",
   color: "white",
   padding: "2px",
-  fontSize: "90%"
+  fontSize: "90%",
+  fontFamily: 'Inconsolata, monospace'
 };
 
 var customTagStyle = {
