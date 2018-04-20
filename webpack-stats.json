@@ -1,1 +1,1 @@
-{"status":"done","chunks":{"index":[{"name":"index-build.js","path":"/home/alli/maddys-art/assets/js/index-build.js"}]}}
+{"status":"done","chunks":{"paintings":[{"name":"paintings-build.js","path":"/home/alli/maddys-art/assets/js/paintings-build.js"}],"index":[{"name":"index-build.js","path":"/home/alli/maddys-art/assets/js/index-build.js"}],"contact":[{"name":"contact-build.js","path":"/home/alli/maddys-art/assets/js/contact-build.js"}],"about":[{"name":"about-build.js","path":"/home/alli/maddys-art/assets/js/about-build.js"}]}}

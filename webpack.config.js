@@ -5,7 +5,10 @@ var BundleTracker = require('webpack-bundle-tracker')
 module.exports = {
     context: __dirname,
 
-    entry: {index: './react/index.js'},
+    entry: {index: './react/index.js', 
+            about: './react/about.js', 
+            contact: './react/contact.js', 
+            paintings: './react/paintings.js'},
 
     output: {
         path: path.resolve('./assets/js'),

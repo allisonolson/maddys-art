@@ -4,7 +4,7 @@ import Base from './components/base.js';
 import ArtGallery from './components/artgallery.js';  
 
 
-var test = <h1 style={{textAlign: 'center', color: 'white', fontFamily:'Inconsolata, monospace'}}>Madeline LeBarron Art</h1>;
+var test = <h1><a href="/" style={{textDecoration: 'none', color: 'white'}}>Madeline LeBarron Art</a></h1>;
 
 var arte = <ArtGallery images={images_json}/>;
 

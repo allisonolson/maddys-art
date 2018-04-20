@@ -1,0 +1,25 @@
+<!doctype html> 
+
+<html lang="en">
+  <head> 
+    <meta charset="utf-8">
+    <title>Madeline LeBarron</title> 
+    <meta name="description" content="Madeline LeBarron's Art">
+    <meta name="viewport" content="width=device=width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+  </head>
+  <body style="background-color:black;">
+    <span id="react-base"></span>
+  </body>
+  <script type="text/javascript"> 
+    var images_json = ""; 
+    var oReq = new XMLHttpRequest(); 
+    oReq.onload = function(e) {
+      images_json = JSON.parse(this.responseText);
+    }
+    oReq.open("get", "assets/json/paintings.json", false); 
+    oReq.send();
+  </script> 
+  <script src="assets/js/paintings-build.js"></script> 
+</html>
+

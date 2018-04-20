@@ -60,7 +60,7 @@
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 98);
+/******/ 	return __webpack_require__(__webpack_require__.s = 101);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -26028,7 +26028,10 @@ CheckButton.defaultProps = { isSelectable: true,
 module.exports = CheckButton;
 
 /***/ }),
-/* 98 */
+/* 98 */,
+/* 99 */,
+/* 100 */,
+/* 101 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -26054,8 +26057,12 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 var test = _react2.default.createElement(
   'h1',
-  { style: { textAlign: 'center', color: 'white', fontFamily: 'Inconsolata, monospace' } },
-  'Madeline LeBarron Art'
+  null,
+  _react2.default.createElement(
+    'a',
+    { href: '/', style: { textDecoration: 'none', color: 'white' } },
+    'Madeline LeBarron Art'
+  )
 );
 
 var arte = _react2.default.createElement(_artgallery2.default, { images: images_json });
