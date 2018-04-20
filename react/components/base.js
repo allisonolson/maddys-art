@@ -47,9 +47,9 @@ export default class Base extends React.Component {
     var sidebarContent = 
       <div style={{display: 'flex', alignItems: 'center', height:'100%'}}>
         <div style={{paddingLeft:'20px', paddingRight:"20px"}}>
-          <a href='/paintings' style={sidebarItemStyle}>Paintings</a>
-          <a href='#' style={sidebarItemStyle}>About</a>
-          <a href='#' style={sidebarItemStyle}>Contact</a>
+          <a href="/paintings" style={sidebarItemStyle}>Paintings</a>
+          <a href='/about' style={sidebarItemStyle}>About</a>
+          <a href='/contact' style={sidebarItemStyle}>Contact</a>
         </div>
       </div>;
  

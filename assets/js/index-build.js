@@ -19713,23 +19713,8 @@ var Base = function (_React$Component) {
           { style: { paddingLeft: '20px', paddingRight: "20px" } },
           _react2.default.createElement(
             'a',
-            { href: '#', style: sidebarItemStyle },
+            { href: '/paintings', style: sidebarItemStyle },
             'Paintings'
-          ),
-          _react2.default.createElement(
-            'a',
-            { href: '#', style: sidebarItemStyle },
-            'Drawings'
-          ),
-          _react2.default.createElement(
-            'a',
-            { href: '#', style: sidebarItemStyle },
-            'Prints'
-          ),
-          _react2.default.createElement(
-            'a',
-            { href: '#', style: sidebarItemStyle },
-            'Animations'
           ),
           _react2.default.createElement(
             'a',
