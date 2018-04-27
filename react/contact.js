@@ -6,7 +6,7 @@ import Base from './components/base.js';
 var test = <h1><a href="/" style={{textDecoration: 'none', color: 'white'}}>Madeline LeBarron Art</a></h1>;
 
 
-var body = <div>My name is Madeline Lebarron and this is my site!</div>;  
+var body = <div style={{margin: 'auto', width: '50%', padding: '10px'}}>Follow me on <a style={{color: 'white'}} href="https://www.instagram.com/madelinelebarron/">Instagram</a></div>;  
 
 var page = <div>{test}<div style={{paddingLeft:"30px", paddingRight:"30px"}}><br/><br/><div>{body}</div></div></div>;
 

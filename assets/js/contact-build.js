@@ -19612,8 +19612,13 @@ var test = _react2.default.createElement(
 
 var body = _react2.default.createElement(
   'div',
-  null,
-  'My name is Madeline Lebarron and this is my site!'
+  { style: { margin: 'auto', width: '50%', padding: '10px' } },
+  'Follow me on ',
+  _react2.default.createElement(
+    'a',
+    { style: { color: 'white' }, href: 'https://www.instagram.com/madelinelebarron/' },
+    'Instagram'
+  )
 );
 
 var page = _react2.default.createElement(
